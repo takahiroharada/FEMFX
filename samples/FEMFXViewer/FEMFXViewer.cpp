@@ -36,7 +36,7 @@ THE SOFTWARE.
 // GLFW includes
 #pragma warning(push, 0)
 #define GLFW_INCLUDE_GLU
-#include <GLFW/glfw3.h>
+#include <GL/glfw3.h>
 #pragma warning(pop)
 
 #define _VECTORMATH_DEBUG // For print functions

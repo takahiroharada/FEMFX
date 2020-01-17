@@ -12,7 +12,7 @@ VECTORMATH_INC_DIR = FEMFX_BASE_DIR.."amd_femfx/inc/Vectormath/"
 TRACE_DIR = FEMFX_BASE_DIR.."external/trace/"
 SAMPLES_COMMON_DIR = FEMFX_BASE_DIR.."samples/common/"
 METIS_DIR = FEMFX_BASE_DIR.."external/metis-5.1.0/"
-JSON_INC_DIR = FEMFX_BASE_DIR.."external/json-develop/include"
+JSON_INC_DIR = FEMFX_BASE_DIR.."samples/contrib/json/include"
 TASK_SYSTEM_DIR = FEMFX_BASE_DIR.."samples/sample_task_system/"
 
 -- Solution-wide config
@@ -50,8 +50,8 @@ TASK_SYSTEM_DIR = FEMFX_BASE_DIR.."samples/sample_task_system/"
     EXE_NAME = "FEMFXViewer"
     SRC_DIR = ""
     EXAMPLE_RB_DIR = FEMFX_BASE_DIR.."samples/ExampleRigidBodies/"
-    GLFW_INCLUDE_DIR = FEMFX_BASE_DIR.."external/glfw/include/"
-    GLFW_LIB_DIR = FEMFX_BASE_DIR.."external/glfw/lib-vc2017/"
+    GLFW_INCLUDE_DIR = FEMFX_BASE_DIR.."samples/contrib/include/"
+    GLFW_LIB_DIR = FEMFX_BASE_DIR.."samples/contrib/lib/"
     project (EXE_NAME)
         filename('%{prj.name}_'.._ACTION)
         targetname(EXE_NAME)
